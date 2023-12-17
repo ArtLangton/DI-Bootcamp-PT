@@ -9,3 +9,5 @@ for (const name of sortedNames) {
 }
 
 console.log(acronym)
+
+//applied changes
