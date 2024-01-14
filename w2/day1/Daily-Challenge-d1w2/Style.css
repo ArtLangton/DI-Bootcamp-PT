@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(204, 212, 218);
+    width: auto;
+    height: 920px;
+
+}
+
+.Right {
+    background-color: rgb(212, 255, 193);
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.Middle {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Left {
+    background-color:  rgb(212, 255, 193);
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.square {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(119, 255, 117);
+    border: 3px solid rgb(19, 83, 96);
+    display: flex;
+    justify-content: space-between;
+    
+}
