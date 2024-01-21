@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <section id="quoteSection" class="quote-container">
+
+    </section>
+    <button id="generateQuoteBtn" class="button mint">Generate Quote</button>
+
+    <button id="charCountBtn" class="button pastel-yellow">Count characters!</button>
+    <button id="likeBtn" class="button pastel-yellow">Like</button>
+
+    <form id="addQuoteForm" class="form-container">
+      <label for="quoteInput">Quote:</label>
+      <input type="text" id="quoteInput" class="input" required>
+
+      <label for="authorInput">Author:</label>
+      <input type="text" id="authorInput" class="input" required>
+
+      <button type="button" id="addQuoteBtn" class="button pastel-yellow">Add Quote</button>
+    </form>
+
+
+
+    <form id="filterForm" class="form-container">
+      <label for="authorFilter">Filter by Author:</label>
+      <input type="text" id="authorFilter" class="input">
+
+      <button type="button" id="filterBtn" class="button pastel-yellow">Filter Quotes</button>
+    </form>
+
+    <button id="prevQuoteBtn" class="button pastel-yellow">Previous Quote</button>
+    <button id="nextQuoteBtn" class="button pastel-yellow">Next Quote</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
