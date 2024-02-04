@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/d7/a6/11/d7a61190a836bdcfc62bf97af4f4c74b.png);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#loadingIcon {
+    font-size: 80px;
+    margin: 20vh 0;
+    color: white;
+    display: none;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+#starWarsLogo {
+    background-image: url(https://pngimg.com/uploads/star_wars_logo/star_wars_logo_PNG20.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+}
