@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giphy Random GIFs</title>
+</head>
+<body>
+    <form id="gifForm">
+        <label for="categoryInput">Enter a category:</label>
+        <input type="text" id="categoryInput" required>
+        <button type="button" onclick="fetchRandomGif()">Fetch Gif</button>
+        <button type="button" onclick="deleteAllGifs()">Delete All</button>
+    </form>
+    <div id="gifContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
